@@ -16,6 +16,10 @@ class Home extends BaseController
     {
         return view('connexion');
     }
+     public function contact(): string
+    {
+        return view('contact');
+    }
      public function terms(): string
     {
         return view('terms-condition');

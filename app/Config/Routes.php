@@ -36,6 +36,7 @@ $routes->get('home/register', 'Home::register');
 $routes->get('home/dashboard', 'Home::dashboard');
 $routes->get('home/privacy', 'Home::privacy');
 $routes->get('home/terms', 'Home::terms');
+$routes->get('contact', 'Home::contact');
 
 /*
  * --------------------------------------------------------------------
