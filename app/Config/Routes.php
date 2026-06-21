@@ -38,6 +38,7 @@ $routes->get('home/privacy', 'Home::privacy');
 $routes->get('home/terms', 'Home::terms');
 $routes->get('contact', 'Home::contact');
 $routes->get('shop', 'Home::shop');
+$routes->get('agence', 'Home::agence');
 
 /*
  * --------------------------------------------------------------------
