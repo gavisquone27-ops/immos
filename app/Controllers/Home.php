@@ -20,7 +20,11 @@ class Home extends BaseController
     {
         return view('contact');
     }
-     public function terms(): string
+     public function shop(): string
+    {
+        return view('shop');
+    }    
+    public function terms(): string
     {
         return view('terms-condition');
     }
