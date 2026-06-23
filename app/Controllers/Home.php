@@ -36,6 +36,10 @@ class Home extends BaseController
     {
         return view('dashboard');
     }
+     public function agence(): string
+    {
+        return view('agence');
+    }
       public function registers()
     {
         if ($this->request->is('post')) {
